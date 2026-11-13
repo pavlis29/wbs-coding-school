@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChallengeTrackerApi.Tests/ChallengeTrackerApi.Tests.csproj" />
+  <Project Path="ChallengeTrackerApi/ChallengeTrackerApi.csproj" />
+</Solution>

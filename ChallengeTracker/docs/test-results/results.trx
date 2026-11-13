@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="749b85f1-d932-4d98-bda6-76b1b03d43ac" name="ChallengeTracker verification 2026-11-09">
+  <Times creation="2026-11-09T09:17:45.4668980+01:00" queuing="2026-11-09T09:17:45.4668980+01:00" start="2026-11-09T09:17:44.9127250+01:00" finish="2026-11-09T09:17:48.2263720+01:00" />
+  <TestSettings name="default" id="b88ffa3a-3819-474e-abab-f06b60664c6a">
+    <Deployment runDeploymentRoot="_test-host_2026-11-09_09_17_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="606dc2bf-e707-4aa9-a463-32ce805b05a7" testId="e64a2fef-4db8-a4fd-4e90-4062170a2625" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Query_filters_public_open_and_my_memberships_without_writes" computerName="test-host" duration="00:00:00.2409125" startTime="2026-11-09T09:17:47.6854270+01:00" endTime="2026-11-09T09:17:47.9263540+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="606dc2bf-e707-4aa9-a463-32ce805b05a7" />
+    <UnitTestResult executionId="93d3a770-0719-4941-a37a-203a69a46280" testId="b32408a7-a6c6-45d0-e977-e489a1f7e4ba" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_forward_transition(current: Open, next: Running)" computerName="test-host" duration="00:00:00.0001740" startTime="2026-11-09T09:17:45.4338660+01:00" endTime="2026-11-09T09:17:45.4338820+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93d3a770-0719-4941-a37a-203a69a46280" />
+    <UnitTestResult executionId="9ae49809-e426-43a9-b9a3-bac4392a6541" testId="ee733d9d-9f02-992c-75e9-cabf4e85bd1f" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Leaderboard_aggregates_current_entries_by_user_and_sorts_descending" computerName="test-host" duration="00:00:00.2254060" startTime="2026-11-09T09:17:47.1212340+01:00" endTime="2026-11-09T09:17:47.3466350+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ae49809-e426-43a9-b9a3-bac4392a6541" />
+    <UnitTestResult executionId="40e79c60-18ad-498e-b986-68afc3d82068" testId="5d9cc64d-7f90-85c9-8231-a5751c74215e" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Optional_null_description_does_not_crash_the_API" computerName="test-host" duration="00:00:00.1496091" startTime="2026-11-09T09:17:46.6579140+01:00" endTime="2026-11-09T09:17:46.8073770+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40e79c60-18ad-498e-b986-68afc3d82068" />
+    <UnitTestResult executionId="d88dbce3-c880-4ec8-b0b3-5b1f240f4011" testId="992a3bdd-c066-55c3-4f8a-60e029c3b67b" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_forward_transition(current: Running, next: Completed)" computerName="test-host" duration="00:00:00.0000187" startTime="2026-11-09T09:17:45.4338210+01:00" endTime="2026-11-09T09:17:45.4338380+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d88dbce3-c880-4ec8-b0b3-5b1f240f4011" />
+    <UnitTestResult executionId="4a71feec-d4b9-44bd-a223-10b88219a0c6" testId="07664e85-49e9-17f4-3dba-509b0091d104" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Private_join_stays_pending_until_owner_approves_and_hides_activity_from_outsiders" computerName="test-host" duration="00:00:00.2592092" startTime="2026-11-09T09:17:46.7107190+01:00" endTime="2026-11-09T09:17:46.9699590+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a71feec-d4b9-44bd-a223-10b88219a0c6" />
+    <UnitTestResult executionId="87bba1fd-c5f1-4416-8eed-44146446758c" testId="c2ad3d9c-c863-037a-6f1d-e70eb6a5783d" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 5)" computerName="test-host" duration="00:00:00.0000768" startTime="2026-11-09T09:17:45.4329450+01:00" endTime="2026-11-09T09:17:45.4329610+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87bba1fd-c5f1-4416-8eed-44146446758c" />
+    <UnitTestResult executionId="b2298113-9aa1-4783-9821-b09a2764b8bc" testId="48bd8550-4862-48e4-d582-65b0b6029a0d" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Registration_login_and_me_return_real_identity_and_protected_routes_reject_guests" computerName="test-host" duration="00:00:00.2241063" startTime="2026-11-09T09:17:47.4611810+01:00" endTime="2026-11-09T09:17:47.6853070+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2298113-9aa1-4783-9821-b09a2764b8bc" />
+    <UnitTestResult executionId="db9484fb-62bd-48fd-9da4-376ec2767854" testId="4171b4f8-9cb6-f329-3a6f-7822d4b3984e" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Editing_cannot_move_a_record_into_an_already_used_day" computerName="test-host" duration="00:00:00.1509010" startTime="2026-11-09T09:17:46.9704080+01:00" endTime="2026-11-09T09:17:47.1210970+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db9484fb-62bd-48fd-9da4-376ec2767854" />
+    <UnitTestResult executionId="9efe993f-3aaa-4ee6-ab87-a15b92dce76c" testId="e29e9153-cd00-f34d-8a64-f7cc253ec737" testName="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;en-US&quot;)" computerName="test-host" duration="00:00:00.0003598" startTime="2026-11-09T09:17:45.4337610+01:00" endTime="2026-11-09T09:17:45.4339200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9efe993f-3aaa-4ee6-ab87-a15b92dce76c" />
+    <UnitTestResult executionId="f37f6c27-7072-4f1a-b0af-b44db049b1ae" testId="8243986b-120c-e03e-1c30-a4324cb6d07d" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Public_join_is_active_duplicate_join_conflicts_and_leave_revokes_progress_access" computerName="test-host" duration="00:00:00.1884236" startTime="2026-11-09T09:17:47.5603270+01:00" endTime="2026-11-09T09:17:47.7483700+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f37f6c27-7072-4f1a-b0af-b44db049b1ae" />
+    <UnitTestResult executionId="a6dc7a40-c9d0-45dd-8e36-46b7c1ef3f80" testId="079d941a-c91c-eb48-4b17-5dcb912a652f" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Concurrent_date_change_and_progress_write_preserve_the_date_window" computerName="test-host" duration="00:00:00.3156836" startTime="2026-11-09T09:17:46.8074740+01:00" endTime="2026-11-09T09:17:47.1231760+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6dc7a40-c9d0-45dd-8e36-46b7c1ef3f80" />
+    <UnitTestResult executionId="11f2d08a-2056-4945-b2ba-ace0fda5c4d4" testId="7e0ba64e-2cde-6ef1-9604-8c12818195ec" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 10)" computerName="test-host" duration="00:00:00.0000068" startTime="2026-11-09T09:17:45.4329890+01:00" endTime="2026-11-09T09:17:45.4330050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f2d08a-2056-4945-b2ba-ace0fda5c4d4" />
+    <UnitTestResult executionId="9f473dd7-c088-4c90-926c-f270383f7527" testId="15ae52cd-e642-1f6c-d487-51a6640ed11e" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Running, next: Running)" computerName="test-host" duration="00:00:00.0000055" startTime="2026-11-09T09:17:45.4326060+01:00" endTime="2026-11-09T09:17:45.4326430+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f473dd7-c088-4c90-926c-f270383f7527" />
+    <UnitTestResult executionId="4c01c43f-9871-4f7d-93a8-40c393976a0a" testId="c937ae5f-9869-7a7d-3781-29b078e87fdd" testName="ChallengeTrackerApi.Tests.Integration.OperationsTests.Progress_has_its_separate_ten_requests_per_minute_quota" computerName="test-host" duration="00:00:01.0884117" startTime="2026-11-09T09:17:45.3963310+01:00" endTime="2026-11-09T09:17:46.4882570+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c01c43f-9871-4f7d-93a8-40c393976a0a" />
+    <UnitTestResult executionId="e60b2d1a-7b71-4557-85ac-e1a59c695f2e" testId="2d033975-9681-e1dc-de85-ae2ad8e7f0ea" testName="ChallengeTrackerApi.Tests.Integration.OperationsTests.Write_rate_limit_is_per_user_and_returns_retry_after_without_limiting_health" computerName="test-host" duration="00:00:00.1997397" startTime="2026-11-09T09:17:46.9488480+01:00" endTime="2026-11-09T09:17:47.1486040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e60b2d1a-7b71-4557-85ac-e1a59c695f2e" />
+    <UnitTestResult executionId="db308020-fe1d-453a-bfe6-cba1309a9332" testId="de2f6261-e229-b564-3b8a-85efdf4009cd" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Concurrent_daily_writes_create_exactly_one_entry" computerName="test-host" duration="00:00:00.3072743" startTime="2026-11-09T09:17:47.8934250+01:00" endTime="2026-11-09T09:17:48.2007190+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db308020-fe1d-453a-bfe6-cba1309a9332" />
+    <UnitTestResult executionId="6783187d-cadc-4d88-bd83-dcfc9b3d5a17" testId="40c135d9-c094-50fd-3614-0970f67a925d" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Changing_challenge_dates_cannot_orphan_existing_progress" computerName="test-host" duration="00:00:00.1353276" startTime="2026-11-09T09:17:47.9264800+01:00" endTime="2026-11-09T09:17:48.0618420+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6783187d-cadc-4d88-bd83-dcfc9b3d5a17" />
+    <UnitTestResult executionId="c5e20216-58aa-464f-a471-c4945151679c" testId="76f26e54-328d-11f0-a3f0-9631b849be3b" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Owner_can_edit_and_delete_progress_but_others_cannot" computerName="test-host" duration="00:00:01.1174243" startTime="2026-11-09T09:17:45.3957390+01:00" endTime="2026-11-09T09:17:46.5172740+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5e20216-58aa-464f-a471-c4945151679c" />
+    <UnitTestResult executionId="7b81343a-613d-4dd7-bc6d-701c4d3fff75" testId="94faebe9-a278-083c-3834-35b4c08c173a" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Running, next: Open)" computerName="test-host" duration="00:00:00.0001993" startTime="2026-11-09T09:17:45.4157240+01:00" endTime="2026-11-09T09:17:45.4157680+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b81343a-613d-4dd7-bc6d-701c4d3fff75" />
+    <UnitTestResult executionId="24beb8a8-313b-4b40-9050-5339af49c13d" testId="19d68f72-970e-19d0-0954-0c920b7eb32b" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Challenge_CRUD_requires_owner_and_cascades_progress_and_memberships" computerName="test-host" duration="00:00:00.2244071" startTime="2026-11-09T09:17:46.4331550+01:00" endTime="2026-11-09T09:17:46.6577130+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24beb8a8-313b-4b40-9050-5339af49c13d" />
+    <UnitTestResult executionId="8db37da0-d8b9-476d-b98a-393d463cd25e" testId="cbd06655-f232-aa13-407b-1c6dc2573841" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Completed, next: Running)" computerName="test-host" duration="00:00:00.0000099" startTime="2026-11-09T09:17:45.4159830+01:00" endTime="2026-11-09T09:17:45.4160210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8db37da0-d8b9-476d-b98a-393d463cd25e" />
+    <UnitTestResult executionId="4b968b23-436e-41fa-97d2-c58e9b238f96" testId="d7ee117e-2e94-11b6-c7b4-970c91478d93" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Validation_rejects_bad_dates_empty_title_invalid_enum_and_malformed_json" computerName="test-host" duration="00:00:00.2097214" startTime="2026-11-09T09:17:47.1232830+01:00" endTime="2026-11-09T09:17:47.3330420+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b968b23-436e-41fa-97d2-c58e9b238f96" />
+    <UnitTestResult executionId="ac5a4800-5eb5-4db6-a7ce-5275c3f2f233" testId="972c2061-02f3-2042-26c2-57e199e8c8aa" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Logging_checks_amount_window_membership_and_one_entry_per_UTC_day" computerName="test-host" duration="00:00:00.1447858" startTime="2026-11-09T09:17:47.7484990+01:00" endTime="2026-11-09T09:17:47.8933030+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac5a4800-5eb5-4db6-a7ce-5275c3f2f233" />
+    <UnitTestResult executionId="17c5c16f-dfb0-4d6c-889d-de674ab373ff" testId="41eb0820-fed4-75f6-bba4-7d0551ecee43" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 1)" computerName="test-host" duration="00:00:00.0000355" startTime="2026-11-09T09:17:45.4328990+01:00" endTime="2026-11-09T09:17:45.4329160+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17c5c16f-dfb0-4d6c-889d-de674ab373ff" />
+    <UnitTestResult executionId="c4b107b6-c027-4e69-83d6-8afef70161e3" testId="2a7b0293-c63c-c924-bd53-d29e2ca26951" testName="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;de-DE&quot;)" computerName="test-host" duration="00:00:00.0086611" startTime="2026-11-09T09:17:45.3963140+01:00" endTime="2026-11-09T09:17:45.4330630+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4b107b6-c027-4e69-83d6-8afef70161e3" />
+    <UnitTestResult executionId="5c7d77ca-c5a2-44eb-850b-d415ea8c179d" testId="5a603a7d-596d-c1c4-d5d0-0677333ba1af" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Invalid_registration_is_a_validation_problem" computerName="test-host" duration="00:00:00.1278525" startTime="2026-11-09T09:17:47.3331670+01:00" endTime="2026-11-09T09:17:47.4610590+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c7d77ca-c5a2-44eb-850b-d415ea8c179d" />
+    <UnitTestResult executionId="67ec65f7-d70a-4d04-b84f-40c61e4645c6" testId="0b8c28c4-1e6b-59a1-bd27-85519c822321" testName="ChallengeTrackerApi.Tests.Integration.OperationsTests.Unknown_route_and_invalid_filter_return_ProblemDetails" computerName="test-host" duration="00:00:00.1800372" startTime="2026-11-09T09:17:47.1487480+01:00" endTime="2026-11-09T09:17:47.3289320+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67ec65f7-d70a-4d04-b84f-40c61e4645c6" />
+    <UnitTestResult executionId="c656695f-691e-4f21-aa64-52eeebbead52" testId="06807699-0017-7bd3-a160-6a3435464c3a" testName="ChallengeTrackerApi.Tests.Integration.OperationsTests.SQLite_migration_creates_schema_and_saved_data_survives_a_new_host" computerName="test-host" duration="00:00:00.3341845" startTime="2026-11-09T09:17:46.6146510+01:00" endTime="2026-11-09T09:17:46.9487410+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c656695f-691e-4f21-aa64-52eeebbead52" />
+    <UnitTestResult executionId="c4aebdf5-ba7b-483f-87c3-2dd7c28ba72d" testId="65a03760-31c3-c45a-9289-384c190785b5" testName="ChallengeTrackerApi.Tests.Integration.OperationsTests.CORS_allows_configured_frontend_and_does_not_allow_unknown_origin" computerName="test-host" duration="00:00:00.1259753" startTime="2026-11-09T09:17:46.4886480+01:00" endTime="2026-11-09T09:17:46.6144680+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4aebdf5-ba7b-483f-87c3-2dd7c28ba72d" />
+    <UnitTestResult executionId="b0ae37d4-c3da-42ef-a22c-377a667e114b" testId="5f1cf9b2-a8d5-ac34-3b28-6512ee0b8e33" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Completed, next: Completed)" computerName="test-host" duration="00:00:00.0000046" startTime="2026-11-09T09:17:45.4327650+01:00" endTime="2026-11-09T09:17:45.4327850+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0ae37d4-c3da-42ef-a22c-377a667e114b" />
+    <UnitTestResult executionId="28156851-f153-4cda-b307-0450fa2fe251" testId="4dd34b72-24bd-4e63-2ca2-fff0e325d181" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Open, next: Open)" computerName="test-host" duration="00:00:00.0001384" startTime="2026-11-09T09:17:45.4158670+01:00" endTime="2026-11-09T09:17:45.4159080+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28156851-f153-4cda-b307-0450fa2fe251" />
+    <UnitTestResult executionId="240cb040-f385-42b7-9ac2-7f8a969ad0f9" testId="db247420-ef64-4270-8e8e-f0197abbbe64" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_edit_after_24_hours" computerName="test-host" duration="00:00:00.0014949" startTime="2026-11-09T09:17:45.4330450+01:00" endTime="2026-11-09T09:17:45.4331110+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="240cb040-f385-42b7-9ac2-7f8a969ad0f9" />
+    <UnitTestResult executionId="e30a835b-b837-4fa5-aad3-565b5c651184" testId="b5c15a7b-f5be-4668-c7f6-12773cb86423" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_second_daily_entry" computerName="test-host" duration="00:00:00.0001591" startTime="2026-11-09T09:17:45.4337060+01:00" endTime="2026-11-09T09:17:45.4337790+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e30a835b-b837-4fa5-aad3-565b5c651184" />
+    <UnitTestResult executionId="76478f23-2452-41c8-9aee-faa289624097" testId="c844058d-7b72-1c14-1c68-6902ecdcab90" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Edit_after_24_hours_fails_but_delete_still_works" computerName="test-host" duration="00:00:00.1932171" startTime="2026-11-09T09:17:46.5173910+01:00" endTime="2026-11-09T09:17:46.7106230+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76478f23-2452-41c8-9aee-faa289624097" />
+    <UnitTestResult executionId="172130a0-3bb4-47c7-9ab1-db007cde4874" testId="8de0346b-7514-920c-275f-2b14a2f0d8aa" testName="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;cs-CZ&quot;)" computerName="test-host" duration="00:00:00.0013226" startTime="2026-11-09T09:17:45.4330940+01:00" endTime="2026-11-09T09:17:45.4337270+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="172130a0-3bb4-47c7-9ab1-db007cde4874" />
+    <UnitTestResult executionId="04ef5c91-84da-483c-82dd-0c4176a594e5" testId="c8f1c014-cab4-ab19-d4c0-15b068cf5e8b" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_progress_outside_date_window(month: 10, day: 31)" computerName="test-host" duration="00:00:00.0002299" startTime="2026-11-09T09:17:45.4145950+01:00" endTime="2026-11-09T09:17:45.4146650+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04ef5c91-84da-483c-82dd-0c4176a594e5" />
+    <UnitTestResult executionId="fdd3b08f-084a-468e-b429-c66307e5d99c" testId="640c8a89-4d67-fee5-c2b4-37cb3033ed93" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_progress_outside_date_window(month: 11, day: 11)" computerName="test-host" duration="00:00:00.0055329" startTime="2026-11-09T09:17:45.3963490+01:00" endTime="2026-11-09T09:17:45.4070050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdd3b08f-084a-468e-b429-c66307e5d99c" />
+    <UnitTestResult executionId="95c341b1-536c-4ccb-b989-7b9b60c358aa" testId="9b2f4b46-766c-5403-3fb0-580449085794" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_edit_just_before_24_hours" computerName="test-host" duration="00:00:00.0000740" startTime="2026-11-09T09:17:45.4339480+01:00" endTime="2026-11-09T09:17:45.4339640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c341b1-536c-4ccb-b989-7b9b60c358aa" />
+    <UnitTestResult executionId="3d8d9120-c4b7-431c-9904-016c9c7cde38" testId="d2e3e997-511b-c412-5d89-551f5514554f" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Open, next: Completed)" computerName="test-host" duration="00:00:00.0000046" startTime="2026-11-09T09:17:45.4328200+01:00" endTime="2026-11-09T09:17:45.4328380+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d8d9120-c4b7-431c-9904-016c9c7cde38" />
+    <UnitTestResult executionId="92174498-6d92-46db-8516-4b27f9874fb1" testId="2b2c71a9-7d89-96e1-2620-6bb9476f6e9a" testName="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Joining_a_challenge_that_has_already_started_is_rejected" computerName="test-host" duration="00:00:00.2130138" startTime="2026-11-09T09:17:47.3467740+01:00" endTime="2026-11-09T09:17:47.5598040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92174498-6d92-46db-8516-4b27f9874fb1" />
+    <UnitTestResult executionId="79fcd244-bbe1-4b28-86b4-cfe37bc782af" testId="80da247a-1711-2e11-9bd8-e4e3471a496f" testName="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Only_owner_can_advance_states_and_invalid_transitions_are_conflicts" computerName="test-host" duration="00:00:01.0319891" startTime="2026-11-09T09:17:45.3963410+01:00" endTime="2026-11-09T09:17:46.4327030+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79fcd244-bbe1-4b28-86b4-cfe37bc782af" />
+    <UnitTestResult executionId="aff461f9-e6fe-4dfd-8506-948eee4c1867" testId="0408e765-311a-3f0a-f47c-9ad0fc750734" testName="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.The_24_hour_edit_window_is_closed_at_its_boundary" computerName="test-host" duration="00:00:00.0001029" startTime="2026-11-09T09:17:45.4340010+01:00" endTime="2026-11-09T09:17:45.4340170+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aff461f9-e6fe-4dfd-8506-948eee4c1867" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.OperationsTests.Unknown_route_and_invalid_filter_return_ProblemDetails" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="0b8c28c4-1e6b-59a1-bd27-85519c822321">
+      <Execution id="67ec65f7-d70a-4d04-b84f-40c61e4645c6" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.OperationsTests" name="Unknown_route_and_invalid_filter_return_ProblemDetails" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_forward_transition(current: Running, next: Completed)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="992a3bdd-c066-55c3-4f8a-60e029c3b67b">
+      <Execution id="d88dbce3-c880-4ec8-b0b3-5b1f240f4011" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Allows_forward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Query_filters_public_open_and_my_memberships_without_writes" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="e64a2fef-4db8-a4fd-4e90-4062170a2625">
+      <Execution id="606dc2bf-e707-4aa9-a463-32ce805b05a7" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Query_filters_public_open_and_my_memberships_without_writes" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Running, next: Open)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="94faebe9-a278-083c-3834-35b4c08c173a">
+      <Execution id="7b81343a-613d-4dd7-bc6d-701c4d3fff75" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Completed, next: Running)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="cbd06655-f232-aa13-407b-1c6dc2573841">
+      <Execution id="8db37da0-d8b9-476d-b98a-393d463cd25e" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Open, next: Open)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="4dd34b72-24bd-4e63-2ca2-fff0e325d181">
+      <Execution id="28156851-f153-4cda-b307-0450fa2fe251" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 10)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="7e0ba64e-2cde-6ef1-9604-8c12818195ec">
+      <Execution id="11f2d08a-2056-4945-b2ba-ace0fda5c4d4" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Progress_includes_both_boundary_days" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;cs-CZ&quot;)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="8de0346b-7514-920c-275f-2b14a2f0d8aa">
+      <Execution id="172130a0-3bb4-47c7-9ab1-db007cde4874" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests" name="Decimal_validation_works_with_dot_and_comma_system_cultures" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_second_daily_entry" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="b5c15a7b-f5be-4668-c7f6-12773cb86423">
+      <Execution id="e30a835b-b837-4fa5-aad3-565b5c651184" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_second_daily_entry" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.OperationsTests.Progress_has_its_separate_ten_requests_per_minute_quota" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="c937ae5f-9869-7a7d-3781-29b078e87fdd">
+      <Execution id="4c01c43f-9871-4f7d-93a8-40c393976a0a" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.OperationsTests" name="Progress_has_its_separate_ten_requests_per_minute_quota" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Challenge_CRUD_requires_owner_and_cascades_progress_and_memberships" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="19d68f72-970e-19d0-0954-0c920b7eb32b">
+      <Execution id="24beb8a8-313b-4b40-9050-5339af49c13d" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Challenge_CRUD_requires_owner_and_cascades_progress_and_memberships" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Concurrent_daily_writes_create_exactly_one_entry" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="de2f6261-e229-b564-3b8a-85efdf4009cd">
+      <Execution id="db308020-fe1d-453a-bfe6-cba1309a9332" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Concurrent_daily_writes_create_exactly_one_entry" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Optional_null_description_does_not_crash_the_API" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="5d9cc64d-7f90-85c9-8231-a5751c74215e">
+      <Execution id="40e79c60-18ad-498e-b986-68afc3d82068" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Optional_null_description_does_not_crash_the_API" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_edit_just_before_24_hours" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="9b2f4b46-766c-5403-3fb0-580449085794">
+      <Execution id="95c341b1-536c-4ccb-b989-7b9b60c358aa" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Allows_edit_just_before_24_hours" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.OperationsTests.CORS_allows_configured_frontend_and_does_not_allow_unknown_origin" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="65a03760-31c3-c45a-9289-384c190785b5">
+      <Execution id="c4aebdf5-ba7b-483f-87c3-2dd7c28ba72d" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.OperationsTests" name="CORS_allows_configured_frontend_and_does_not_allow_unknown_origin" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;de-DE&quot;)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="2a7b0293-c63c-c924-bd53-d29e2ca26951">
+      <Execution id="c4b107b6-c027-4e69-83d6-8afef70161e3" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests" name="Decimal_validation_works_with_dot_and_comma_system_cultures" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Logging_checks_amount_window_membership_and_one_entry_per_UTC_day" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="972c2061-02f3-2042-26c2-57e199e8c8aa">
+      <Execution id="ac5a4800-5eb5-4db6-a7ce-5275c3f2f233" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Logging_checks_amount_window_membership_and_one_entry_per_UTC_day" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Registration_login_and_me_return_real_identity_and_protected_routes_reject_guests" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="48bd8550-4862-48e4-d582-65b0b6029a0d">
+      <Execution id="b2298113-9aa1-4783-9821-b09a2764b8bc" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Registration_login_and_me_return_real_identity_and_protected_routes_reject_guests" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.OperationsTests.Write_rate_limit_is_per_user_and_returns_retry_after_without_limiting_health" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="2d033975-9681-e1dc-de85-ae2ad8e7f0ea">
+      <Execution id="e60b2d1a-7b71-4557-85ac-e1a59c695f2e" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.OperationsTests" name="Write_rate_limit_is_per_user_and_returns_retry_after_without_limiting_health" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Allows_forward_transition(current: Open, next: Running)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="b32408a7-a6c6-45d0-e977-e489a1f7e4ba">
+      <Execution id="93d3a770-0719-4941-a37a-203a69a46280" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Allows_forward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 5)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="c2ad3d9c-c863-037a-6f1d-e70eb6a5783d">
+      <Execution id="87bba1fd-c5f1-4416-8eed-44146446758c" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Progress_includes_both_boundary_days" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Editing_cannot_move_a_record_into_an_already_used_day" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="4171b4f8-9cb6-f329-3a6f-7822d4b3984e">
+      <Execution id="db9484fb-62bd-48fd-9da4-376ec2767854" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Editing_cannot_move_a_record_into_an_already_used_day" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Private_join_stays_pending_until_owner_approves_and_hides_activity_from_outsiders" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="07664e85-49e9-17f4-3dba-509b0091d104">
+      <Execution id="4a71feec-d4b9-44bd-a223-10b88219a0c6" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Private_join_stays_pending_until_owner_approves_and_hides_activity_from_outsiders" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Open, next: Completed)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="d2e3e997-511b-c412-5d89-551f5514554f">
+      <Execution id="3d8d9120-c4b7-431c-9904-016c9c7cde38" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Changing_challenge_dates_cannot_orphan_existing_progress" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="40c135d9-c094-50fd-3614-0970f67a925d">
+      <Execution id="6783187d-cadc-4d88-bd83-dcfc9b3d5a17" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Changing_challenge_dates_cannot_orphan_existing_progress" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Only_owner_can_advance_states_and_invalid_transitions_are_conflicts" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="80da247a-1711-2e11-9bd8-e4e3471a496f">
+      <Execution id="79fcd244-bbe1-4b28-86b4-cfe37bc782af" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Only_owner_can_advance_states_and_invalid_transitions_are_conflicts" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Joining_a_challenge_that_has_already_started_is_rejected" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="2b2c71a9-7d89-96e1-2620-6bb9476f6e9a">
+      <Execution id="92174498-6d92-46db-8516-4b27f9874fb1" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Joining_a_challenge_that_has_already_started_is_rejected" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Completed, next: Completed)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="5f1cf9b2-a8d5-ac34-3b28-6512ee0b8e33">
+      <Execution id="b0ae37d4-c3da-42ef-a22c-377a667e114b" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_skipped_repeated_and_backward_transition(current: Running, next: Running)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="15ae52cd-e642-1f6c-d487-51a6640ed11e">
+      <Execution id="9f473dd7-c088-4c90-926c-f270383f7527" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_skipped_repeated_and_backward_transition" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Invalid_registration_is_a_validation_problem" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="5a603a7d-596d-c1c4-d5d0-0677333ba1af">
+      <Execution id="5c7d77ca-c5a2-44eb-850b-d415ea8c179d" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Invalid_registration_is_a_validation_problem" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Validation_rejects_bad_dates_empty_title_invalid_enum_and_malformed_json" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="d7ee117e-2e94-11b6-c7b4-970c91478d93">
+      <Execution id="4b968b23-436e-41fa-97d2-c58e9b238f96" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Validation_rejects_bad_dates_empty_title_invalid_enum_and_malformed_json" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Edit_after_24_hours_fails_but_delete_still_works" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="c844058d-7b72-1c14-1c68-6902ecdcab90">
+      <Execution id="76478f23-2452-41c8-9aee-faa289624097" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Edit_after_24_hours_fails_but_delete_still_works" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_progress_outside_date_window(month: 10, day: 31)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="c8f1c014-cab4-ab19-d4c0-15b068cf5e8b">
+      <Execution id="04ef5c91-84da-483c-82dd-0c4176a594e5" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_progress_outside_date_window" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.OperationsTests.SQLite_migration_creates_schema_and_saved_data_survives_a_new_host" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="06807699-0017-7bd3-a160-6a3435464c3a">
+      <Execution id="c656695f-691e-4f21-aa64-52eeebbead52" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.OperationsTests" name="SQLite_migration_creates_schema_and_saved_data_survives_a_new_host" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.The_24_hour_edit_window_is_closed_at_its_boundary" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="0408e765-311a-3f0a-f47c-9ad0fc750734">
+      <Execution id="aff461f9-e6fe-4dfd-8506-948eee4c1867" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="The_24_hour_edit_window_is_closed_at_its_boundary" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Owner_can_edit_and_delete_progress_but_others_cannot" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="76f26e54-328d-11f0-a3f0-9631b849be3b">
+      <Execution id="c5e20216-58aa-464f-a471-c4945151679c" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Owner_can_edit_and_delete_progress_but_others_cannot" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_progress_outside_date_window(month: 11, day: 11)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="640c8a89-4d67-fee5-c2b4-37cb3033ed93">
+      <Execution id="fdd3b08f-084a-468e-b429-c66307e5d99c" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_progress_outside_date_window" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Public_join_is_active_duplicate_join_conflicts_and_leave_revokes_progress_access" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="8243986b-120c-e03e-1c30-a4324cb6d07d">
+      <Execution id="f37f6c27-7072-4f1a-b0af-b44db049b1ae" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Public_join_is_active_duplicate_join_conflicts_and_leave_revokes_progress_access" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests.Decimal_validation_works_with_dot_and_comma_system_cultures(cultureName: &quot;en-US&quot;)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="e29e9153-cd00-f34d-8a64-f7cc253ec737">
+      <Execution id="9efe993f-3aaa-4ee6-ab87-a15b92dce76c" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ValidationCultureTests" name="Decimal_validation_works_with_dot_and_comma_system_cultures" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests.Leaderboard_aggregates_current_entries_by_user_and_sorts_descending" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="ee733d9d-9f02-992c-75e9-cabf4e85bd1f">
+      <Execution id="9ae49809-e426-43a9-b9a3-bac4392a6541" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.MembershipAndProgressTests" name="Leaderboard_aggregates_current_entries_by_user_and_sorts_descending" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests.Concurrent_date_change_and_progress_write_preserve_the_date_window" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="079d941a-c91c-eb48-4b17-5dcb912a652f">
+      <Execution id="a6dc7a40-c9d0-45dd-8e36-46b7c1ef3f80" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Integration.AuthenticationAndChallengeTests" name="Concurrent_date_change_and_progress_write_preserve_the_date_window" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Rejects_edit_after_24_hours" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="db247420-ef64-4270-8e8e-f0197abbbe64">
+      <Execution id="240cb040-f385-42b7-9ac2-7f8a969ad0f9" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Rejects_edit_after_24_hours" />
+    </UnitTest>
+    <UnitTest name="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests.Progress_includes_both_boundary_days(day: 1)" storage="ChallengeTracker/api/challengetrackerapi.tests/bin/debug/net10.0/challengetrackerapi.tests.dll" id="41eb0820-fed4-75f6-bba4-7d0551ecee43">
+      <Execution id="17c5c16f-dfb0-4d6c-889d-de674ab373ff" />
+      <TestMethod codeBase="ChallengeTracker/api/ChallengeTrackerApi.Tests/bin/Debug/net10.0/ChallengeTrackerApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ChallengeTrackerApi.Tests.Unit.ChallengeRulesTests" name="Progress_includes_both_boundary_days" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e64a2fef-4db8-a4fd-4e90-4062170a2625" executionId="606dc2bf-e707-4aa9-a463-32ce805b05a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b32408a7-a6c6-45d0-e977-e489a1f7e4ba" executionId="93d3a770-0719-4941-a37a-203a69a46280" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee733d9d-9f02-992c-75e9-cabf4e85bd1f" executionId="9ae49809-e426-43a9-b9a3-bac4392a6541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d9cc64d-7f90-85c9-8231-a5751c74215e" executionId="40e79c60-18ad-498e-b986-68afc3d82068" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="992a3bdd-c066-55c3-4f8a-60e029c3b67b" executionId="d88dbce3-c880-4ec8-b0b3-5b1f240f4011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07664e85-49e9-17f4-3dba-509b0091d104" executionId="4a71feec-d4b9-44bd-a223-10b88219a0c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2ad3d9c-c863-037a-6f1d-e70eb6a5783d" executionId="87bba1fd-c5f1-4416-8eed-44146446758c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48bd8550-4862-48e4-d582-65b0b6029a0d" executionId="b2298113-9aa1-4783-9821-b09a2764b8bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4171b4f8-9cb6-f329-3a6f-7822d4b3984e" executionId="db9484fb-62bd-48fd-9da4-376ec2767854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e29e9153-cd00-f34d-8a64-f7cc253ec737" executionId="9efe993f-3aaa-4ee6-ab87-a15b92dce76c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8243986b-120c-e03e-1c30-a4324cb6d07d" executionId="f37f6c27-7072-4f1a-b0af-b44db049b1ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="079d941a-c91c-eb48-4b17-5dcb912a652f" executionId="a6dc7a40-c9d0-45dd-8e36-46b7c1ef3f80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e0ba64e-2cde-6ef1-9604-8c12818195ec" executionId="11f2d08a-2056-4945-b2ba-ace0fda5c4d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15ae52cd-e642-1f6c-d487-51a6640ed11e" executionId="9f473dd7-c088-4c90-926c-f270383f7527" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c937ae5f-9869-7a7d-3781-29b078e87fdd" executionId="4c01c43f-9871-4f7d-93a8-40c393976a0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d033975-9681-e1dc-de85-ae2ad8e7f0ea" executionId="e60b2d1a-7b71-4557-85ac-e1a59c695f2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de2f6261-e229-b564-3b8a-85efdf4009cd" executionId="db308020-fe1d-453a-bfe6-cba1309a9332" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40c135d9-c094-50fd-3614-0970f67a925d" executionId="6783187d-cadc-4d88-bd83-dcfc9b3d5a17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76f26e54-328d-11f0-a3f0-9631b849be3b" executionId="c5e20216-58aa-464f-a471-c4945151679c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94faebe9-a278-083c-3834-35b4c08c173a" executionId="7b81343a-613d-4dd7-bc6d-701c4d3fff75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d68f72-970e-19d0-0954-0c920b7eb32b" executionId="24beb8a8-313b-4b40-9050-5339af49c13d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbd06655-f232-aa13-407b-1c6dc2573841" executionId="8db37da0-d8b9-476d-b98a-393d463cd25e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7ee117e-2e94-11b6-c7b4-970c91478d93" executionId="4b968b23-436e-41fa-97d2-c58e9b238f96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="972c2061-02f3-2042-26c2-57e199e8c8aa" executionId="ac5a4800-5eb5-4db6-a7ce-5275c3f2f233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41eb0820-fed4-75f6-bba4-7d0551ecee43" executionId="17c5c16f-dfb0-4d6c-889d-de674ab373ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a7b0293-c63c-c924-bd53-d29e2ca26951" executionId="c4b107b6-c027-4e69-83d6-8afef70161e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a603a7d-596d-c1c4-d5d0-0677333ba1af" executionId="5c7d77ca-c5a2-44eb-850b-d415ea8c179d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b8c28c4-1e6b-59a1-bd27-85519c822321" executionId="67ec65f7-d70a-4d04-b84f-40c61e4645c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06807699-0017-7bd3-a160-6a3435464c3a" executionId="c656695f-691e-4f21-aa64-52eeebbead52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65a03760-31c3-c45a-9289-384c190785b5" executionId="c4aebdf5-ba7b-483f-87c3-2dd7c28ba72d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f1cf9b2-a8d5-ac34-3b28-6512ee0b8e33" executionId="b0ae37d4-c3da-42ef-a22c-377a667e114b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dd34b72-24bd-4e63-2ca2-fff0e325d181" executionId="28156851-f153-4cda-b307-0450fa2fe251" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db247420-ef64-4270-8e8e-f0197abbbe64" executionId="240cb040-f385-42b7-9ac2-7f8a969ad0f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5c15a7b-f5be-4668-c7f6-12773cb86423" executionId="e30a835b-b837-4fa5-aad3-565b5c651184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c844058d-7b72-1c14-1c68-6902ecdcab90" executionId="76478f23-2452-41c8-9aee-faa289624097" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8de0346b-7514-920c-275f-2b14a2f0d8aa" executionId="172130a0-3bb4-47c7-9ab1-db007cde4874" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8f1c014-cab4-ab19-d4c0-15b068cf5e8b" executionId="04ef5c91-84da-483c-82dd-0c4176a594e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="640c8a89-4d67-fee5-c2b4-37cb3033ed93" executionId="fdd3b08f-084a-468e-b429-c66307e5d99c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b2f4b46-766c-5403-3fb0-580449085794" executionId="95c341b1-536c-4ccb-b989-7b9b60c358aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2e3e997-511b-c412-5d89-551f5514554f" executionId="3d8d9120-c4b7-431c-9904-016c9c7cde38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b2c71a9-7d89-96e1-2620-6bb9476f6e9a" executionId="92174498-6d92-46db-8516-4b27f9874fb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80da247a-1711-2e11-9bd8-e4e3471a496f" executionId="79fcd244-bbe1-4b28-86b4-cfe37bc782af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0408e765-311a-3f0a-f47c-9ad0fc750734" executionId="aff461f9-e6fe-4dfd-8506-948eee4c1867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="43" executed="43" passed="43" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.04]   Discovering: ChallengeTrackerApi.Tests
+[xUnit.net 00:00:00.06]   Discovered:  ChallengeTrackerApi.Tests
+[xUnit.net 00:00:00.08]   Starting:    ChallengeTrackerApi.Tests
+[09:17:45 INF] Application started. Press Ctrl+C to shut down.
+[09:17:45 INF] Application started. Press Ctrl+C to shut down.
+[09:17:45 INF] Application started. Press Ctrl+C to shut down.
+[09:17:45 INF] Hosting environment: Testing
+[09:17:45 INF] Hosting environment: Testing
+[09:17:45 INF] Hosting environment: Testing
+[09:17:45 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:45 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:45 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 ERR] HTTP POST /challenges/cc8e5a95-b917-48de-9904-f813200eeac5/start responded 500 in 13.0082 ms
+ChallengeTrackerApi.Errors.ApiException: Only the challenge owner can do this.
+   at ChallengeTrackerApi.Services.ChallengeService.FindOwned(Guid id, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 102
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 87
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 92
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_5&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 ERR] HTTP POST /challenges/cc8e5a95-b917-48de-9904-f813200eeac5/complete responded 500 in 2.8807 ms
+ChallengeTrackerApi.Errors.ApiException: Only Open → Running → Completed transitions are allowed.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureTransition(ChallengeStatus current, ChallengeStatus next) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 12
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 88
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 92
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_6&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 ERR] HTTP POST /challenges/cc8e5a95-b917-48de-9904-f813200eeac5/start responded 500 in 0.9330 ms
+ChallengeTrackerApi.Errors.ApiException: Only Open → Running → Completed transitions are allowed.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureTransition(ChallengeStatus current, ChallengeStatus next) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 12
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 88
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 92
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_5&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 ERR] HTTP POST /challenges/cc8e5a95-b917-48de-9904-f813200eeac5/complete responded 500 in 0.9480 ms
+ChallengeTrackerApi.Errors.ApiException: Only Open → Running → Completed transitions are allowed.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureTransition(ChallengeStatus current, ChallengeStatus next) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 12
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 88
+   at ChallengeTrackerApi.Services.ChallengeService.Transition(Guid id, ChallengeStatus next, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 92
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_6&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 ERR] HTTP POST /progress-entries responded 500 in 1.7171 ms
+ChallengeTrackerApi.Errors.ApiException: You already logged progress for this challenge on this UTC day.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureNoDailyDuplicate(Boolean exists) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 29
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 25
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application is shutting down...
+[09:17:46 ERR] HTTP PUT /progress-entries/06551db5-d441-4c5b-b657-cf4199804550 responded 500 in 42.8681 ms
+ChallengeTrackerApi.Errors.ApiException: Progress can only be edited within 24 hours of creation.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureCanEdit(DateTimeOffset createdAt, DateTimeOffset now) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Update(Guid id, UpdateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 42
+   at ChallengeTrackerApi.Services.ProgressService.Update(Guid id, UpdateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 55
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_3&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 23
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 INF] Application started. Press Ctrl+C to shut down.
+[09:17:46 INF] Hosting environment: Testing
+[09:17:46 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:46 ERR] HTTP GET /challenges/65c75e9b-b571-4964-93e0-55491aeedd2f responded 500 in 0.9478 ms
+ChallengeTrackerApi.Errors.ApiException: An active membership is required for this private challenge.
+   at ChallengeTrackerApi.Services.AccessRules.EnsureCanRead(Challenge challenge, Nullable`1 userId, Boolean allowPending) in ChallengeTracker/api/ChallengeTrackerApi/Services/AccessRules.cs:line 14
+   at ChallengeTrackerApi.Services.ChallengeService.Get(Guid id, Nullable`1 userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 45
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_1&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 18
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:46 INF] Application is shutting down...
+[09:17:46 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 153.6596 ms
+ChallengeTrackerApi.Errors.ApiException: The progress date must be inside the challenge dates.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureProgressDate(DateOnly day, DateOnly start, DateOnly end) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 18
+   at ChallengeTrackerApi.Services.ProgressService.ValidateEntry(Guid challengeId, Guid userId, DateOnly day) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 94
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP PUT /progress-entries/24b241e7-2987-4756-9a25-f12e829d628f responded 500 in 5.4568 ms
+ChallengeTrackerApi.Errors.ApiException: You already logged progress for this challenge on this UTC day.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureNoDailyDuplicate(Boolean exists) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 29
+   at ChallengeTrackerApi.Services.ProgressService.Update(Guid id, UpdateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 46
+   at ChallengeTrackerApi.Services.ProgressService.Update(Guid id, UpdateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 55
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_3&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 23
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 ERR] HTTP GET /challenges responded 500 in 2.1147 ms
+ChallengeTrackerApi.Errors.ApiException: Status must be Open, Running or Completed.
+   at ChallengeTrackerApi.Services.ChallengeService.List(Nullable`1 userId, String visibility, String status, Boolean mine, String search) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 29
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_0&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 16
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 ERR] HTTP POST /memberships responded 500 in 4.1297 ms
+ChallengeTrackerApi.Errors.ApiException: Only open challenges accept new members.
+   at ChallengeTrackerApi.Services.MembershipService.Join(Guid challengeId, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 29
+   at ChallengeTrackerApi.Services.MembershipService.Join(Guid challengeId, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 38
+   at ChallengeTrackerApi.Endpoints.MembershipEndpoints.&lt;&gt;c.&lt;&lt;MapMembershipEndpoints&gt;b__0_1&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/MembershipEndpoints.cs:line 17
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 ERR] HTTP POST /auth/login responded 500 in 39.9232 ms
+ChallengeTrackerApi.Errors.ApiException: Email or password is incorrect.
+   at ChallengeTrackerApi.Services.AuthService.Login(LoginRequest request) in ChallengeTracker/api/ChallengeTrackerApi/Services/AuthService.cs:line 36
+   at ChallengeTrackerApi.Endpoints.AuthEndpoints.&lt;&gt;c.&lt;&lt;MapAuthEndpoints&gt;b__0_1&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/AuthEndpoints.cs:line 16
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 1.2934 ms
+ChallengeTrackerApi.Errors.ApiException: Join the challenge and wait for approval before logging progress.
+   at ChallengeTrackerApi.Services.ProgressService.ValidateEntry(Guid challengeId, Guid userId, DateOnly day) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 93
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP POST /memberships responded 500 in 1.3244 ms
+ChallengeTrackerApi.Errors.ApiException: You have already joined or requested access.
+   at ChallengeTrackerApi.Services.MembershipService.Join(Guid challengeId, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 31
+   at ChallengeTrackerApi.Services.MembershipService.Join(Guid challengeId, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 38
+   at ChallengeTrackerApi.Endpoints.MembershipEndpoints.&lt;&gt;c.&lt;&lt;MapMembershipEndpoints&gt;b__0_1&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/MembershipEndpoints.cs:line 17
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP DELETE /memberships/056bbce6-4b2e-4de3-95c5-f54db1a1ee54 responded 500 in 2.3861 ms
+ChallengeTrackerApi.Errors.ApiException: You can only leave your own membership.
+   at ChallengeTrackerApi.Services.MembershipService.Leave(Guid id, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 46
+   at ChallengeTrackerApi.Services.MembershipService.Leave(Guid id, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/MembershipService.cs:line 50
+   at ChallengeTrackerApi.Endpoints.MembershipEndpoints.&lt;&gt;c.&lt;&lt;MapMembershipEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/MembershipEndpoints.cs:line 22
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 1.3353 ms
+ChallengeTrackerApi.Errors.ApiException: Join the challenge and wait for approval before logging progress.
+   at ChallengeTrackerApi.Services.ProgressService.ValidateEntry(Guid challengeId, Guid userId, DateOnly day) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 93
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 4.7040 ms
+ChallengeTrackerApi.Errors.ApiException: The progress date must be inside the challenge dates.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureProgressDate(DateOnly day, DateOnly start, DateOnly end) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 18
+   at ChallengeTrackerApi.Services.ProgressService.ValidateEntry(Guid challengeId, Guid userId, DateOnly day) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 94
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 1.0992 ms
+ChallengeTrackerApi.Errors.ApiException: The progress date must be inside the challenge dates.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureProgressDate(DateOnly day, DateOnly start, DateOnly end) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 18
+   at ChallengeTrackerApi.Services.ProgressService.ValidateEntry(Guid challengeId, Guid userId, DateOnly day) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 94
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 24
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 ERR] HTTP POST /progress-entries responded 500 in 0.9465 ms
+ChallengeTrackerApi.Errors.ApiException: You already logged progress for this challenge on this UTC day.
+   at ChallengeTrackerApi.Services.ChallengeRules.EnsureNoDailyDuplicate(Boolean exists) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeRules.cs:line 29
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 25
+   at ChallengeTrackerApi.Services.ProgressService.Create(CreateProgressRequest request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ProgressService.cs:line 35
+   at ChallengeTrackerApi.Endpoints.ProgressEndpoints.&lt;&gt;c.&lt;&lt;MapProgressEndpoints&gt;b__0_2&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ProgressEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application is shutting down...
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:47 INF] Application started. Press Ctrl+C to shut down.
+[09:17:47 INF] Hosting environment: Testing
+[09:17:47 INF] Content root path: ChallengeTracker/api/ChallengeTrackerApi
+[09:17:48 ERR] HTTP PUT /challenges/15e04e6d-b977-46bb-bcdf-2e5f3f47b7d6 responded 500 in 1.3528 ms
+ChallengeTrackerApi.Errors.ApiException: These dates would exclude existing progress. Keep all entries inside the date range.
+   at ChallengeTrackerApi.Services.ChallengeService.Update(Guid id, ChallengeWrite request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 67
+   at ChallengeTrackerApi.Services.ChallengeService.Update(Guid id, ChallengeWrite request, Guid userId) in ChallengeTracker/api/ChallengeTrackerApi/Services/ChallengeService.cs:line 72
+   at ChallengeTrackerApi.Endpoints.ChallengeEndpoints.&lt;&gt;c.&lt;&lt;MapChallengeEndpoints&gt;b__0_3&gt;d.MoveNext() in ChallengeTracker/api/ChallengeTrackerApi/Endpoints/ChallengeEndpoints.cs:line 25
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;TaskOfTToValueTaskOfObject&gt;g__ExecuteAwaited|92_0[T](Task`1 task)
+   at Microsoft.AspNetCore.Http.Validation.ValidationEndpointFilterFactory.&lt;&gt;c__DisplayClass1_0.&lt;&lt;Create&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;ExecuteValueTaskOfObject&gt;g__ExecuteAwaited|130_0(ValueTask`1 valueTask, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[09:17:48 INF] Application is shutting down...
+[09:17:48 INF] Application is shutting down...
+[xUnit.net 00:00:02.90]   Finished:    ChallengeTrackerApi.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

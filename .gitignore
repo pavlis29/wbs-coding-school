@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+# Local macOS files and ChallengeTracker handoff copies
+.DS_Store
+/ChallengeTracker-MVP-backup-*/
+/ChallengeTracker-WBS.zip

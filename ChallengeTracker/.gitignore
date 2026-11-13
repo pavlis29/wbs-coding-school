@@ -1,0 +1,16 @@
+.DS_Store
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/AppData/
+**/.env
+**/.idea/
+**/.vscode/
+.local/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.tsbuildinfo
+**/TestResults/
+.env
