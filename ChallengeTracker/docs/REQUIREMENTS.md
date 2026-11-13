@@ -1,6 +1,6 @@
 # Kontrolní seznam FR001–FR026
 
-Požadavky vycházejí z dodaného PDF z 8. listopadu 2026. Tabulka popisuje implementaci; důkaz konkrétních spuštěných kontrol je v [TEST_REPORT.md](TEST_REPORT.md). Přítomnost kódu sama o sobě neznamená ověření všech prostředí.
+Přehled požadavků FR001–FR026 ze školního zadání a jejich implementace. Výsledky testů jsou v [TEST_REPORT.md](TEST_REPORT.md).
 
 | ID | Požadavek | Implementace |
 | --- | --- | --- |
@@ -31,11 +31,11 @@ Požadavky vycházejí z dodaného PDF z 8. listopadu 2026. Tabulka popisuje imp
 | FR025 | Chyby a optimistická změna | ProblemDetails a chyby polí; 429; optimistický pokrok a total s rollbackem |
 | FR026 | Docker + SQL Server | Multi-stage Dockerfile; Compose DB/migrace/API; samostatné SQLServer migrace; env secrets |
 
-## Hranice předání
+## Omezení a pravidla
 
-- SQLite je hlavní lokální varianta. Docker/SQL Server konfigurace je připravená; její skutečný runtime vyžaduje Docker a je vykázán odděleně v reportu.
+- Lokální běh používá SQLite. Konfigurace Dockeru a SQL Serveru je připravená, ale běh se SQL Serverem zatím nebyl otestován.
 - Azure veřejné nasazení se neprovádělo. Konfigurace je oddělená od kódu; přihlašovací tajemství nejsou v repozitáři.
-- Původní JSON s výzvami bez pokroku se bezpečně importuje. Staré zápisy s volným jménem místo účtu vyžadují explicitní mapování a nejsou potichu převáděny.
+- Import podporuje původní JSON výzvy bez zápisů pokroku. Staré zápisy identifikované pouze jménem potřebují nejdřív přiřadit ke konkrétním účtům.
 - Datumy zápisů mají jednotný UTC den. Editace končí přesně při dosažení 24 hodin od CreatedAt.
 - Noví členové se připojují k Open výzvě. Vlastník je automaticky aktivním členem a vlastní výzvu nemůže opustit; může ji smazat.
 - Člen po odchodu ztrácí přístup k soukromé výzvě; jeho dřívější pokrok se uchová. Mazat vlastní zápis může autor přes API i po odchodu.

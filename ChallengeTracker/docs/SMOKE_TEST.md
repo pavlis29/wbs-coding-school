@@ -1,6 +1,6 @@
-# Ruční průchod před prezentací
+# Ruční testování
 
-Spusť `./start.sh`. Použij dvě oddělená okna/prohlížeče nebo se mezi účty odhlašuj. Ukázková data lze vytvářet přes UI. Originální databázi nemaž.
+Spusť `./start.sh` a připrav dva testovací účty. Použij oddělené profily prohlížeče nebo se mezi účty odhlašuj.
 
 ## CRUD v rozhraní
 
@@ -46,4 +46,4 @@ První tři odpovědi mají být 200. Poslední bez tokenu 401 s ProblemDetails.
 - JWT chyba při ručním spuštění: vlastní Jwt__Key musí mít alespoň 32 bajtů. Doporučený start.sh jej vytváří automaticky.
 - Soukromá výzva není v Discover: to je záměr; vstupuje se přes odkaz a schválení.
 
-Skutečně provedené kontroly při předání jsou odděleně v TEST_REPORT.md; tento soubor je opakovatelný postup, nikoli tvrzení, že byl každý bod ručně otestován.
+Tento postup slouží k opakovanému ručnímu testování. Výsledky posledního ověření jsou v [TEST_REPORT.md](TEST_REPORT.md).

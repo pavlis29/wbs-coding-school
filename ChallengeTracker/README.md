@@ -1,91 +1,78 @@
 # ChallengeTracker
 
-Školní fullstack projekt: výzvy, členství, denní pokrok a žebříček. Navazuje na původní CRUD MVP a zachovává jeho tmavý vzhled. React 19 + TypeScript, ASP.NET Core 10 Minimal API, EF Core a SQLite.
+Školní projekt pro sledování krátkodobých výzev. Uživatel vytvoří výzvu, ostatní se připojí a zapisují denní pokrok. Výsledky se zobrazují v žebříčku.
+
+Backend používá ASP.NET Core 10, EF Core a SQLite. Frontend je v Reactu 19 a TypeScriptu.
 
 ![ChallengeTracker](docs/screenshots/final-overview.png)
 
-## Stažení z GitHubu
+## Spuštění
+
+Potřebné nástroje: .NET 10 SDK, Node.js 22+ a npm.
 
 ```bash
 git clone https://github.com/pavlis29/wbs-coding-school.git
 cd wbs-coding-school/ChallengeTracker
-```
-
-## Spuštění na Macu
-
-Potřebuješ .NET 10 SDK, Node.js 22+ a npm. V terminálu otevři tuto složku a spusť:
-
-```bash
 ./start.sh
 ```
 
-Otevři **http://localhost:5173**, zvol registraci a vytvoř vlastní účet. Heslo: alespoň 8 znaků, velké i malé písmeno, číslice a speciální znak. Skript spustí oba servery; Ctrl+C je ukončí. První běh stáhne závislosti, vytvoří lokální klíč a databázi a provede migrace.
+Aplikace běží na **http://localhost:5173**, API na **http://localhost:5080**. Při prvním spuštění se nainstalují závislosti a vytvoří databáze. Servery se ukončují pomocí Ctrl+C.
 
-Pokud už běží stará verze na stejných portech, ukonči ji v jejím terminálu, nebo použij:
+Na přihlašovací stránce lze vytvořit účet. Heslo musí mít alespoň 8 znaků, velké a malé písmeno, číslici a speciální znak.
+
+Pokud jsou porty obsazené:
 
 ```bash
 API_PORT=5082 FRONTEND_PORT=5174 ./start.sh
 ```
 
-Pak otevři http://localhost:5174. Konfigurace frontendu se nastaví automaticky.
+## Funkce
 
-- `.local/challenge.db`: SQLite data, která přežijí restart.
-- `.local/backend.env`: vygenerovaný JWT klíč a heslo ukázkových účtů; nepatří do Gitu.
-- `.local/api.log`: log backendu.
-- Ukázkové účty: `pavel@example.test`, `alex@example.test`. Heslo určuje `Seed__Password` v lokálním souboru; není pevně zapsané v projektu. Vlastní registrace je jednodušší.
-- Původní `AppData/challenge-data.json` se nepřepisuje. Vývojový import převádí staré výzvy bez zápisů se stejnými ID. Pokud najde staré zápisy bez identity, zastaví se s vysvětlením, aby se nic neztratilo ani nepřiřadilo nesprávnému uživateli.
+- Vytvoření, zobrazení, úprava a smazání výzvy.
+- Veřejné výzvy s okamžitým členstvím a soukromé výzvy se schválením vlastníkem.
+- Přechody stavů Open → Running → Completed.
+- Jeden zápis pokroku na uživatele, výzvu a UTC den.
+- Úprava vlastního zápisu do 24 hodin; smazání bez časového limitu.
+- Žebříček počítaný ze zapsaného pokroku.
 
-## Krátké demo
+## Struktura projektu
 
-1. Registrace a vytvoření veřejné výzvy s dnešním datem uvnitř jejího období.
-2. Úprava názvu, připojení druhého účtu, spuštění výzvy a zápis pokroku.
-3. Úprava zápisu, změna žebříčku a smazání zápisu.
-4. Soukromá výzva: sdílení odkazu, žádost druhého účtu a schválení vlastníkem.
-5. Ukázka, že druhý účet nemůže upravit cizí výzvu ani zápis.
-6. Smazání výzvy odstraní také její členství a zápisy.
+| Složka | Obsah |
+| --- | --- |
+| `api/ChallengeTrackerApi/` | API, služby, modely a databázové migrace |
+| `api/ChallengeTrackerApi.Tests/` | Unit a integrační testy |
+| `frontend/src/` | Stránky, komponenty, přihlášení a práce s API |
+| `docs/` | Popis aplikace, endpointy a testování |
+| `scripts/` | Kontrola projektu a konfigurace Dockeru |
 
-## Ověření
+## Data a konfigurace
+
+Lokální databáze je v `.local/challenge.db`, log API v `.local/api.log`. Soubor `.local/backend.env` obsahuje vygenerovaný JWT klíč a heslo vývojových účtů `pavel@example.test` a `alex@example.test`. Tyto soubory jsou v `.gitignore`.
+
+Při samostatném spuštění backendu lze nastavit `Database__Provider`, `ConnectionStrings__DefaultConnection`, `Jwt__Key` a `Cors__AllowedOrigins__0`. JWT klíč musí mít alespoň 32 bajtů. Frontend používá `VITE_API_BASE_URL`, bez prefixu `/api`.
+
+Dokumentace API je ve vývojovém režimu na **/scalar/v1**, OpenAPI na **/openapi/v1.json**. Stav aplikace kontrolují **/health**, **/health/live** a **/health/ready**.
+
+## Testy
+
+Po instalaci závislostí:
 
 ```bash
 ./scripts/check.sh
 ```
 
-Spustí automatické testy a produkční sestavení frontendu. Skutečný výsledek posledního ověření: [TEST_REPORT.md](docs/TEST_REPORT.md). Stav školních požadavků: [REQUIREMENTS.md](docs/REQUIREMENTS.md).
+Skript spustí backendové testy a sestavení frontendu. Při ověření 9. 11. 2026 prošlo všech 43 testů. Podrobnosti jsou v [test reportu](docs/TEST_REPORT.md).
 
-## Struktura
+## Docker
 
-Backend: `Endpoints/` řeší HTTP, `Services/` pravidla, `Models/` entity, `Dtos/` vstupy a výstupy, `Data/` databázi a migrace, `Errors/` chyby, `Filters/` společné kontroly. Testy jsou v `api/ChallengeTrackerApi.Tests/`.
-
-Frontend: `actions/` změny dat, `data/` čtení a cache, `contexts/` přihlášení, `pages/` stránky, `components/` společné části, `layouts/` navigace, `types/` typy a `utils/` API klient, datumy a validace.
-
-## Konfigurace
-
-`start.sh` ji nastaví automaticky. Pro samostatný start použij environment variables:
-
-| Proměnná | Význam |
-| --- | --- |
-| ASPNETCORE_ENVIRONMENT | Development: automatické migrace a seed |
-| ASPNETCORE_URLS | například http://localhost:5080 |
-| Database__Provider | Sqlite nebo SqlServer |
-| ConnectionStrings__DefaultConnection | SQLite soubor nebo SQL Server connection string |
-| Jwt__Key | vlastní náhodný klíč, alespoň 32 bajtů |
-| Seed__Password | volitelné heslo vývojových účtů |
-| Cors__AllowedOrigins__0 | například http://localhost:5173 |
-| VITE_API_BASE_URL | například http://localhost:5080, bez /api |
-
-V adresáři `api/` obnovíš EF nástroj přes `dotnet tool restore`. Dokumentace je v Development na **/scalar/v1**, OpenAPI na **/openapi/v1.json**. Health: **/health**, **/health/live**, **/health/ready**. Ready skutečně kontroluje databázi.
-
-## Docker a SQL Server
-
-Docker Desktop není součást projektu. Compose používá SQL Server Developer pro vývojové předvedení. Hranice ověření je v test reportu.
+Konfigurace pro API a SQL Server je připravená, ale běh se SQL Serverem zatím nebyl otestován.
 
 ```bash
 ./scripts/configure-docker.sh
 docker compose up --build -d
-docker compose logs migrate api
 ```
 
-Konfigurační skript vytvoří `.env` s náhodnými tajemstvími a existující soubor nepřepíše. SQL Server startuje první; služba `migrate` provede migrace a pak API poslouchá na localhost:5080. Frontend v dalším terminálu:
+Skript vytvoří lokální `.env`. Compose spustí databázi, provede migrace a poté spustí API na portu 5080. Frontend se spouští zvlášť:
 
 ```bash
 cd frontend
@@ -93,11 +80,12 @@ npm ci
 VITE_API_BASE_URL=http://localhost:5080 npm run dev
 ```
 
-SQL Server image vyžaduje `linux/amd64`; na Apple Silicon potřebuje vhodně nastavenou emulaci. Produkce neseeduje demo účty, použij registraci. Pro veřejné nasazení nastav vlastní databázový účet, HTTPS a důvěryhodný certifikát. Azure může použít API image, SQL Server/Azure SQL connection string a samostatný migrační krok. Zveřejnění zdrojového kódu na GitHubu samo o sobě nespouští veřejně dostupnou aplikaci; pro lokální demo použij start.sh.
+SQL Server image používá `linux/amd64`; na Apple Silicon vyžaduje emulaci. Tato konfigurace slouží pro vývoj.
 
-## Podklady
+## Dokumentace
 
-- [České vysvětlení](docs/EXPLANATION_CZ.md)
-- [Endpointy](docs/ENDPOINTS.md)
-- [Ruční scénáře](docs/SMOKE_TEST.md)
-- [Německá prezentace](docs/PRESENTATION_DE.md)
+- [Jak aplikace funguje](docs/EXPLANATION_CZ.md)
+- [Přehled endpointů](docs/ENDPOINTS.md)
+- [Školní požadavky](docs/REQUIREMENTS.md)
+- [Ruční testování](docs/SMOKE_TEST.md)
+- [Prezentace](docs/PRESENTATION_DE.md)

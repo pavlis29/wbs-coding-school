@@ -1,31 +1,31 @@
-# Präsentation: ChallengeTracker (ca. 5 Minuten)
+# ChallengeTracker
 
-## 1. Idee
+## Idee
 
-ChallengeTracker hilft dabei, kleine Ziele zu verfolgen, zum Beispiel 100 Seiten zu lesen. Nutzer können Challenges erstellen, teilnehmen und ihren täglichen Fortschritt dokumentieren.
+ChallengeTracker hilft dabei, kleine Ziele zu verfolgen, zum Beispiel 100 Seiten zu lesen. Nutzer erstellen eine Challenge, nehmen daran teil und tragen ihren täglichen Fortschritt ein.
 
-## 2. Technologien
+## Aufbau
 
-Das Frontend verwendet React und TypeScript. Das Backend ist eine ASP.NET Core Minimal API. Entity Framework Core speichert die Daten lokal in SQLite. Für die Benutzerkonten wird ASP.NET Core Identity verwendet; die Anmeldung liefert ein JWT.
+Das Frontend verwendet React und TypeScript. Das Backend ist eine ASP.NET Core Minimal API. Die Daten werden mit Entity Framework Core in SQLite gespeichert. ASP.NET Core Identity verwaltet die Konten; nach der Anmeldung wird ein JWT verwendet.
 
-## 3. Live-Demo
+## Demo
 
-Registrierung -> Challenge erstellen -> Titel bearbeiten -> zweiten Nutzer teilnehmen lassen -> Challenge starten -> Fortschritt hinzufügen -> Fortschritt bearbeiten -> Rangliste ansehen -> Eintrag löschen.
+1. Ein Konto registrieren.
+2. Eine öffentliche Challenge erstellen und den Titel bearbeiten.
+3. Mit einem zweiten Konto teilnehmen.
+4. Die Challenge starten und Fortschritt eintragen.
+5. Den Eintrag ändern und die aktualisierte Rangliste zeigen.
+6. Den Eintrag löschen.
+7. Bei einer privaten Challenge eine Anfrage stellen und als Eigentümer bestätigen.
 
-Danach eine private Challenge zeigen: Ein zweiter Nutzer stellt eine Anfrage, der Eigentümer bestätigt die Mitgliedschaft. Andere Nutzer dürfen fremde Einträge nicht bearbeiten.
+## Wichtige Regeln
 
-## 4. Eine wichtige Regel erklären
+Pro Nutzer, Challenge und UTC-Tag gibt es höchstens einen Fortschrittseintrag. Ein eindeutiger Datenbankindex verhindert doppelte Einträge auch bei gleichzeitigen Anfragen.
 
-Pro Nutzer, Challenge und UTC-Tag gibt es höchstens einen Fortschrittseintrag. Die Anwendung prüft diese Regel, und ein eindeutiger Datenbankindex verhindert doppelte Einträge auch bei gleichzeitigen Anfragen. Eintragungsdatum und Erstellungszeit sind getrennt: Das Bearbeitungsfenster von 24 Stunden hängt von der Erstellungszeit ab.
+Nur der Autor darf seinen Eintrag bearbeiten. Das ist bis 24 Stunden nach der Erstellung möglich. Das Eintragungsdatum und die Erstellungszeit werden getrennt gespeichert.
 
-## 5. Struktur und Tests
+## Tests und offene Punkte
 
-Endpoints behandeln HTTP. Services enthalten die Regeln. DTOs definieren die API-Verträge. Der DbContext verwaltet Beziehungen und Speicherung. Tests prüfen unter anderem Zustandswechsel, Berechtigungen und doppelte Tages-Einträge. Die tatsächlich ausgeführten Prüfungen stehen im Testbericht.
+Bei der Prüfung am 9. November 2026 waren alle 43 automatischen Tests erfolgreich. Sie prüfen unter anderem Zustandswechsel, Berechtigungen, Datumsgrenzen und doppelte Tages-Einträge.
 
-## 6. Grenzen offen benennen
-
-Die Docker-Konfiguration mit SQL Server ist vorbereitet. Ob sie in dieser Umgebung ausgeführt wurde, steht ausdrücklich im Testbericht. Öffentliche Bereitstellung, Passwort-Wiederherstellung und Refresh-Tokens gehören nicht zu diesem Demo-Umfang.
-
-## Vorbereitung
-
-Vor der Präsentation die Anwendung starten, zwei Konten bereithalten und alle Schritte selbst durchgehen. Bei Fragen lieber einen konkreten Ablauf erklären, als unbekannte Fachbegriffe aufzuzählen. Unterstützung durch Werkzeuge entsprechend den Regeln der Schule angeben.
+Die Docker-Konfiguration für SQL Server ist vorbereitet, wurde aber noch nicht mit einem laufenden SQL Server getestet. Passwort-Wiederherstellung, Refresh-Tokens und eine öffentliche Bereitstellung sind nicht enthalten.
